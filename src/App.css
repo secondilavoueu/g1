@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  background-color:  #6B2E38;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+
+.menu a{
+  color: #f4eeed;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.logo{
+  width: 180px;
+}
+
+.nav{
+  display: flex;
+  padding: 16px;
+  color: white;
+}
+
+/* FOOTER */
+
+.footer{
+  background-color: #6B2E38;
+  color: #fefefe;
+  padding: 20px 24px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  text-align: center;
+}
+
+.footer img{
+  width: 160px;
+  height: auto;
+}
+
+.footer p{
+  font-size: 16px;
+}
+
+/* FALE CONOSCO */
+
+.faleconosco{
+  margin: 64px 0 0;
+  padding: 92px 24px 0;
+  color: #6B2E38;
+
+  border-top: 4px solid #380c13;
+}
+
+.faleconosco h2{
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #380c13;
+  color: #6B2E38;
+}
+
+.faleconosco button{
+  background-color: #6B2E38;
+}
+
