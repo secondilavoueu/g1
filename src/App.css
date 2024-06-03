@@ -17,7 +17,7 @@
 }
 
 .logo{
-  width: 180px;
+  width: 150px;
 }
 
 .nav{
@@ -26,35 +26,87 @@
   color: white;
 }
 
+/* HOME */
+
+.inicio{
+  padding: 60px 24px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio p{
+  font-size: 30px;
+  font-family: 'Times New Roman';
+  color: #6B2E38;
+  text-align: center;
+  border-top: 2px solid #380c13;
+}
+
+.moça{
+  width: 330px;
+}
+
+.botao{
+  color: beige;
+  background-color: #6B2E38;
+  margin: auto;
+  display: block;
+  width: 200px; 
+  height: 50px;
+  border-radius: 8px;
+}
+
+.botao a{
+  text-decoration: none;
+}
+
+.botao:hover{
+  background-color: #380c13;
+}
+
 /* FOOTER */
 
-.footer{
-  background-color: #6B2E38;
-  color: #fefefe;
-  padding: 20px 24px;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  text-align: center;
+.baixo{
+  margin-top: 200px;
+  background-color:  #6B2E38;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
 }
 
-.footer img{
-  width: 160px;
-  height: auto;
+.itens{
+  padding: 16px;
 }
 
-.footer p{
-  font-size: 16px;
+.menu-nav{
+  list-style:none;
+  float:left;
+}
+
+.menu-nav li{
+  position:relative;
+  float:left;
+}
+
+.menu-nav li a{
+  color: rgb(255, 255, 255); 
+  text-decoration:none; 
+  padding:5px 10px; 
+  display:block;
+}
+
+
+.menu-nav li ul{
+  border:1px solid #c0c0c0;
+  display:block;
+  width:150px; 
 }
 
 /* FALE CONOSCO */
 
 .faleconosco{
-  margin: 64px 0 0;
-  padding: 92px 24px 0;
+  padding: 50px 24px 0;
   color: #6B2E38;
-
-  border-top: 4px solid #380c13;
 }
 
 .faleconosco h2{
@@ -68,3 +120,41 @@
   background-color: #6B2E38;
 }
 
+/* QUEM SOMOS */
+
+.historia{
+  margin: 64px 0 0;
+  padding: 50px 24px 0;
+  color: #6B2E38;
+}
+
+.historia .container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #380c13;
+}
+
+.historia .container .coluna{
+  flex: 1 1 350px;
+}
+
+.historia img{
+  width: 80%;
+  display: block;
+}
+
+.historia h2{
+  margin-bottom: 32px;
+  padding-left: 8px;
+  border-left: 4px solid #380c13;
+  color: #6B2E38;
+}
+
+.historia p{
+  line-height: 1.5;
+  font-size: 16px;
+  text-align: justify;
+}

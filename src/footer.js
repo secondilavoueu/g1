@@ -5,20 +5,32 @@ import Logo from '../src/logoo.png'
 
 function Footer() {
   return (
-    <nav class="fim">
 
-        <div className='footer'>
-            <img src={Logo} class=" " alt="..."></img> 
-            <p>Salvador | 🇧🇷</p> 
+    <footer className="baixo">
+
+        <div className='logo2'>
+            <img className='logoTcc' src={Logo} width={140}/>
         </div>
         
-    </nav>
 
+        <div className='itens'>
+        <nav className="menu-baixo">
+
+            <ul className="menu-nav">
+
+            <li><a href="/faleconosco">Fale Conosco</a></li>
+		    <li><a href="#">Cadastro</a></li>
+	  		<li><a href="#">Guia</a></li>
+            <li><a href="#">Chat</a></li>
+		    <li><a href="#">Conte e ouça</a></li>
+
+            </ul>
+        </nav>
+        </div>
+            
+
+        </footer>
+    
         );
 }   
 export default Footer;
-
-
-
-
-{/* <footer>&copy; 2024 - Suporte: imperiofeminino@gmail.com </footer> */}

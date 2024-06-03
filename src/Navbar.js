@@ -20,18 +20,18 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/Navbar">Home</a>
+                    <a class="nav-link" aria-current="page" href="/home">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/quemsomos">Quem Somos</a>
+                    <a class="nav-link" aria-current="page" href="/quemsomos">Quem Somos</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/faleconosco">Fale Conosco</a>
+                    <a class="nav-link" aria-current="page" href="/faleconosco">Fale Conosco</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"></input>
-                    <button class="btn btn-outline-success" type="submit">Procurar</button>
+                    <button class="btn btn-outline-secondary" type="submit">Procurar</button>
                 </form>
                 </div>
             </div>
@@ -43,32 +43,3 @@ function Navbar() {
         );
 }   
 export default Navbar;
-
-
-
-{/* <nav class="navbar navbar-expand-lg navegaçao">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
-                    <li class="nav-item">     
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li><a class="dropdown-item" href="/quemsomos">Quem somos</a></li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mais opções
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/quemsomos">Quem somos</a></li>
-                        <li><a class="dropdown-item" href="#">Fale conosco</a></li>
-                        <li>class="dropdown-divider"</li>
-                        <li><a class="dropdown-item" href="#">Perfil</a></li>
-                    </ul>
-                    </li>
-                </ul>
-
-                <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"></input>
-                        <button class="btn btn-outline-success" type="submit">Procurar</button>
-                </form>
-            </div>
-            </nav> */}
