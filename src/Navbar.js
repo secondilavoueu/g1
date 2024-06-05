@@ -29,10 +29,10 @@ function Navbar() {
                     <a class="nav-link" aria-current="page" href="/faleconosco">Fale Conosco</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                {/* <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"></input>
-                    <button class="btn btn-outline-secondary" type="submit">Procurar</button>
-                </form>
+                    <button class="btn btn-outline-light" type="submit">Procurar</button>
+                </form> */}
                 </div>
             </div>
             </nav>

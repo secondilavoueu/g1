@@ -73,9 +73,9 @@ function FaleConosco() {
             <textarea rows="7" cols="80"></textarea>
         </fieldset>
         
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
+        <a href=" ">
+            <button class="enviar" type="button">Enviar</button>
+        </a>
 
         </form>
     </nav>

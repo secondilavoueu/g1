@@ -20,8 +20,8 @@ function Footer() {
 
             <li><a href="/faleconosco">Fale Conosco</a></li>
 		    <li><a href="#">Cadastro</a></li>
-	  		<li><a href="#">Guia</a></li>
-            <li><a href="#">Chat</a></li>
+	  		<li><a href="/lojas">Lojas</a></li>
+            <li><a href="/chat">Chat</a></li>
 		    <li><a href="#">Conte e ouça</a></li>
 
             </ul>

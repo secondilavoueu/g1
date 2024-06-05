@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Moça from '../moça home.png';
+import Moça from '../mulher1.png';
 
 function Home() {
   return (
@@ -12,8 +12,8 @@ function Home() {
             <img src={Moça} alt="moça"></img> 
         </div>
         
-        <a href="">
-            <button class="botao" type="button">Procurar loja</button>
+        <a href="/lojas">
+            <button class="botao" type="button">Procurar lojas</button>
         </a>
     </nav>
 
