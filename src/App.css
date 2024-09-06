@@ -60,6 +60,7 @@
   width: 200px; 
   height: 50px;
   border-radius: 8px;
+  margin-bottom: 80px;
 }
 
 .botao:hover{
@@ -73,7 +74,6 @@
 /* FOOTER */
 
 .baixo{
-  margin-top: 700px;
   background-color:  #6B2E38;
   display: flex; 
   align-items: center; 
@@ -125,8 +125,9 @@
   color: beige;
   background-color: #6B2E38;
   width: 130px; 
-  height: 50px;
+  height: 45px;
   border-radius: 8px;
+  margin-bottom: 80px;
 }
 
 .enviar:hover{
@@ -143,6 +144,7 @@
   margin: 64px 0 0;
   padding: 50px 24px 0;
   color: #6B2E38;
+  margin-bottom: 80px;
 }
 
 .historia .container{
@@ -262,24 +264,42 @@
 
 /* LOJAS */
 
-.lojas{
-  background-image: url(mulheres.jpeg);
-  background-size: cover;
-  padding: 24px;
-  display: flex;
-  justify-content: center;
+.gallery{
+  max-width: 1200px;
+  margin: 64px auto 0;
+  padding: 0 24px;
+  margin-bottom: 20px;
 }
 
-.procurar{
+.gallery-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.gallery-row div{
+  width: 350px;
+}
+
+.gallery-row img{
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.gallery p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.lojas button{
   color: white;
   background-color: #6B2E38;
-  margin: auto;
-  display: block;
   width: 200px; 
   height: 50px;
   border-radius: 8px;
 }
-  
+
 .procurar:hover{
   background-color: #380c13;
 }
