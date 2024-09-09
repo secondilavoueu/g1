@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import Navbar from './Navbar.js';
+import PgCadastro from './PgCadastro.js';
 import Home from './home/home';
 import QuemSomos from './quemsomos/quemsomos';
 import FaleConosco from './faleconosco/faleconosco';
@@ -19,7 +20,7 @@ function App() {
 
       <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<PgCadastro />} />
         <Route path='/home' element={<Home />} />
         <Route path='/faleconosco' element={<FaleConosco />} />
         <Route path='/quemsomos' element={<QuemSomos />} />

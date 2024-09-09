@@ -309,3 +309,138 @@
   border-radius: 8px;
   margin-right: 10px;
 }
+
+
+/* CADASTRO */
+
+/* CADASTRO.JS */
+.top-half {
+  background-color: white;
+  height: 30vh;
+  width: 300vh;
+}
+
+.bottom-half {
+  background-color: #6b2e38;
+  padding: 400px 850px;
+  display: block;
+}
+
+.titulo {
+  margin-right: 50%;
+  margin-top: 5%;
+  font-size: larger;
+}
+.imperio {
+  color: #6B2E38;
+  margin-left: 90%;
+  position: relative;
+  bottom: -50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+.box {
+  background-color: violet;
+  height: 100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* FORMCADASTRO.JS */
+.form-box {
+  padding: 59px;
+  right: 55%;
+  width: 450px;
+  height: 560px;
+  transform: translateX(50%);
+  position: relative;
+  background-color: white;
+  margin-top: -30vh;
+  border-radius: 1vh;
+  
+}
+.texto {
+  color: #6B2E38;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.form-item-cad {
+  display: flex;
+  position: relative;
+  top: 5px;
+}
+
+.form-item-cad {
+  font-weight: bold;
+  margin-top: 35px;
+  display: flex;
+}
+
+.form-input {
+  width: 550%;
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5vh;
+  height: 40px;
+}
+
+.form-input, .form-select, .form-button {
+  margin-bottom: 15px;
+  padding: 19px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.link-item {
+  margin: 900px;
+}
+
+.form-button {
+  background-color: #6B2E38;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  width: 360px;
+}
+
+/* PGCADASTRO.JS */
+.container {
+  display: flex;
+}
+
+.left {
+  background-color: white;
+  flex: 5vh;
+  padding: 200px;
+
+}
+
+.right{
+  background-color: #6B2E38;
+  flex: 1;
+  padding: 500px;
+
+}
+
+.logo1 {
+  position: relative;
+  bottom: 80px;
+}
+.texto1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 28px;
+  position: relative;
+  bottom: 10vh;
+}
+.texto2{
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
+.texto3{
+  text-align: center;
+  position: relative;
+  bottom: -130px;
+  color: #6B2E38;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
