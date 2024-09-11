@@ -2,10 +2,14 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importe o CSS do Bootstrap
 import '../App.css';
 import Banner from '../banner.jpg'
+import Navbar from '../Navbar';
+import Footer from '../footer';
+
 
 function QuemSomos() {
   return (
     <nav class="quemsomos">
+    <Navbar />
         <section class="historia">
         <div class="container">
             <div class="coluna">
@@ -25,6 +29,7 @@ function QuemSomos() {
             </div>
         </div>
     </section>
+    <Footer />
         
     </nav>
 

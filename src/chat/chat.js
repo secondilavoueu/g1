@@ -1,7 +1,21 @@
 import React, { useState } from 'react';
+import Navbar from '../Navbar';
+import Footer from '../footer';
 
+function Fórum() {
+  return (
+    
+    <div class="inicio">
+        <Navbar /> 
+        <h1>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</h1>
+        <Footer />
+    </div>
 
-const Chat = () => {
+        );
+}   
+export default Fórum;
+
+/* const Chat = () => {
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
   const [isUpperCase, setIsUpperCase] = useState(true);
@@ -22,6 +36,7 @@ const Chat = () => {
 
   return (
     <div className="chat-app">
+
       <div className="sidebar">
         <div className="user-list">
           {users.map((user, index) => (
@@ -59,4 +74,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default Chat; */

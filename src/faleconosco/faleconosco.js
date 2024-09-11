@@ -1,10 +1,15 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Importe o CSS do Bootstrap
 import '../App.css';
+import Navbar from '../Navbar';
+import Footer from '../footer';
+
 
 function FaleConosco() {
   return (
     <nav class="forms">
+
+      <Navbar />
         <form class="faleconosco">
         <h2>Entre em contato</h2>
 
@@ -78,6 +83,8 @@ function FaleConosco() {
         </a>
 
         </form>
+
+      <Footer />
     </nav>
 
         );

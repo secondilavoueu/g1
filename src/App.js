@@ -1,20 +1,17 @@
 import './App.css';
 import React from 'react';
-import Navbar from './Navbar.js';
 import PgCadastro from './PgCadastro.js';
 import Home from './home/home';
 import QuemSomos from './quemsomos/quemsomos';
 import FaleConosco from './faleconosco/faleconosco';
 import Lojas from './lojas/lojas';
 import Chat from './chat/chat';
-import Footer from './footer.js';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
 
       <br />
 
@@ -30,7 +27,6 @@ function App() {
       </Routes>
       </BrowserRouter>
 
-      <Footer />
     </div>
   );
 }

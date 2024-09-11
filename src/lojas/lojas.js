@@ -1,16 +1,19 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from '../Navbar';
 import Vestuario from '../roupas.jpg'
 import Beleza from '../beleza.jpeg'
 import Doces from '../docinho.jpg'
 import Calçado from '../calçado.jpeg'
 import Joia from '../acessorio.jpg'
 import Restaurantes from '../comida.jpg'
+import Footer from '../footer';
 
 function Lojas() {
   return (
-    <div class="lojas">
 
+    <div class="lojas">
+    <Navbar />
       <div className='button'>
         <form class="d-flex" role="search">
                 <input class="pesquisar" type="search" placeholder="O que deseja hoje?" aria-label="Search"></input>
@@ -53,6 +56,8 @@ function Lojas() {
         </div>
     </div>
     </section>
+
+    <Footer />
 
     </div>
 

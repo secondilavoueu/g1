@@ -14,7 +14,9 @@ function PgCadastro(){
             <div className='right'>
                 <FormCadastro />
             </div>
+
         </div>
+
     )
 }
 export default PgCadastro;

@@ -1,11 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Moça from '../mulher1.png';
+import Navbar from '../Navbar';
+import Footer from '../footer';
 
 function Home() {
   return (
-    <nav class="inicio">
-
+    
+    <div class="inicio">
+        <Navbar /> 
         <p>Seja a chefe do seu próprio destino!</p>
 
         <div class="moça">
@@ -15,7 +18,8 @@ function Home() {
         <a href="/lojas">
             <button class="botao" type="button">Procurar lojas</button>
         </a>
-    </nav>
+        <Footer />
+    </div>
 
         );
 }   

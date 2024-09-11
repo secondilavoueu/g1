@@ -8,6 +8,7 @@
   display: flex; 
   align-items: center;
   justify-content: space-around;
+
 }
 
 .menu a{
@@ -29,19 +30,18 @@
 /* HOME */
 
 .inicio{
-  padding: 60px 24px 0;
   justify-content: center;
   align-items: center;
 }
 
 .inicio p{
+  padding-top: 100px;
   font-size: 27px;
   font-family: 'Times New Roman';
   color: #6B2E38;
   text-align: center;
   margin: auto;
   width: 900px;
-  border-top: 2px solid #380c13;
 }
 
 .moça{
@@ -313,38 +313,6 @@
 
 /* CADASTRO */
 
-/* CADASTRO.JS */
-.top-half {
-  background-color: white;
-  height: 30vh;
-  width: 300vh;
-}
-
-.bottom-half {
-  background-color: #6b2e38;
-  padding: 400px 850px;
-  display: block;
-}
-
-.titulo {
-  margin-right: 50%;
-  margin-top: 5%;
-  font-size: larger;
-}
-.imperio {
-  color: #6B2E38;
-  margin-left: 90%;
-  position: relative;
-  bottom: -50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular';
-}
-.box {
-  background-color: violet;
-  height: 100px;
-  margin: 0 auto;
-  width: 100%;
-}
-
 /* FORMCADASTRO.JS */
 .form-box {
   padding: 59px;
@@ -353,26 +321,23 @@
   height: 560px;
   transform: translateX(50%);
   position: relative;
-  background-color: white;
+  background-color: #8C3F4C;
   margin-top: -30vh;
   border-radius: 1vh;
   
 }
 .texto {
-  color: #6B2E38;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  color: white;
+  font-family: 'Lucida Sans';
+  text-align: center;
 }
 
 .form-item-cad {
   display: flex;
   position: relative;
   top: 5px;
-}
-
-.form-item-cad {
   font-weight: bold;
   margin-top: 35px;
-  display: flex;
 }
 
 .form-input {
@@ -383,24 +348,33 @@
   height: 40px;
 }
 
-.form-input, .form-select, .form-button {
+.form-input, .form-button {
   margin-bottom: 15px;
   padding: 19px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #ccc;
 }
-.link-item {
-  margin: 900px;
+
+.link-item1, .link-item2 {
+  color: rgb(9, 151, 207)
 }
 
-.form-button {
-  background-color: #6B2E38;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  margin-top: 25px;
-  width: 360px;
+.entrar-button {
+  background-color: #6B2E38; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  text-align: center; 
+  margin: 20px 0; 
+  width: 300px;
+  cursor: pointer; 
+  border-radius: 5px; 
 }
+
+.entrar-button:hover {
+  background-color: #b35464; /* Cor de fundo ao passar o mouse */
+}
+
 
 /* PGCADASTRO.JS */
 .container {

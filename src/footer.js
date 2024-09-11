@@ -21,8 +21,7 @@ function Footer() {
             <li><a href="/faleconosco">Fale Conosco</a></li>
 		    <li><a href="#">Perfil</a></li>
 	  		<li><a href="/lojas">Lojas</a></li>
-            <li><a href="/chat">Chat</a></li>
-		    <li><a href="#">Conte e ouça</a></li>
+            <li><a href="/chat">Fórum</a></li>
 
             </ul>
         </nav>
