@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Império Feminino - Fórum Online</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <h1>Império </br> Feminino</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Fale conosco</a></li>
+                </ul>
+                <div class="search-bar">
+                    <input type="text" placeholder="Insira sua busca">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <img src="avatar1.jpg" class="profile-image">
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Fórum</h1>
+        </br></br>
+        <div class="card-container">
+            <div class="card">
+                <img src="avatar1.jpg" alt="Foto do Usuário 1" class="foto">
+                <h2 class="user">Ana Clara Souza</h2>
+                <p class="education">Medicina - Universidade Federal da Bahia (UFBA)</p>
+                <p class="bio">.</p>
+            </div>
+            <div class="card">
+                <img src="avatar2.jpg" alt="Foto do Usuário 2" class="foto">
+                <h2 class="user">Isabel Cecília</h2>
+                <p class="education">Medicina Pediátrica - Universidade do Estado da Bahia (UNEB)</p>
+                <p class="bio">..</p>
+            </div>
+            <div class="card">
+                <img src="avatar1.jpg" alt="Foto do Usuário 1" class="foto">
+                <h2 class="user">Ana Clara Souza</h2>
+                <p class="education">Medicina - Universidade Federal da Bahia (UFBA)</p>
+                <p class="bio">...</p>
+            </div>
+        </div>
+    </div>
+    </br>
+    <a class="whatsApp" href="https://chat.whatsapp.com/JuNvP82uc3t0UYWBb0iEHm"><button>Participe da comunidade</button></a>
+    </br></br>
+    <footer class="baixo">
+        <div class='logo2'>
+            <img class='logoTcc' src={Logo} width={140}/>
+        </div>
+        <div class='itens'>
+        <nav class="menu-baixo">
+            <ul class="menu-nav">
+            <li><a href="/faleconosco">Fale Conosco</a></li>
+		    <li><a href="#">Perfil</a></li>
+	  		<li><a href="/lojas">Lojas</a></li>
+            <li><a href="/chat">Fórum</a></li>
+            </ul>
+        </nav>
+        </div>
+    </footer>
+</body>
+</html>
